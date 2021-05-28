@@ -5,7 +5,7 @@ var Belt_List = require("bs-platform/lib/js/belt_List.js");
 var H = require("solid-js/h").default;
 var Belt_Option = require("bs-platform/lib/js/belt_Option.js");
 var Caml_option = require("bs-platform/lib/js/caml_option.js");
-var Dom = require("solid-js/dom");
+var Web = require("solid-js/web");
 
 var $$Node = {};
 
@@ -42,7 +42,7 @@ var App = {
 };
 
 Belt_Option.forEach(Caml_option.nullable_to_opt(document.getElementById("root")), (function (root) {
-        Dom.render((function (param) {
+        Web.render((function (param) {
                 return createElement("Taylor", /* [] */0, undefined);
               }), root);
         

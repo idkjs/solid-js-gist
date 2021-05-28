@@ -17,7 +17,7 @@ module Document = {
 };
 
 module Solid = {
-  [@module "solid-js/dom"]
+  [@module "solid-js/web"]
   external render: (unit => HyperScript.t, Node.t) => unit = "render";
 
   [@module "solid-js"]
