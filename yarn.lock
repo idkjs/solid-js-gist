@@ -2,6 +2,11 @@
 # yarn lockfile v1
 
 
+babel-plugin-transform-rename-import@^2.3.0:
+  version "2.3.0"
+  resolved "https://registry.yarnpkg.com/babel-plugin-transform-rename-import/-/babel-plugin-transform-rename-import-2.3.0.tgz#5d9d645f937b0ca5c26a24b2510a06277b6ffd9b"
+  integrity sha512-dPgJoT57XC0PqSnLgl2FwNvxFrWlspatX2dkk7yjKQj5HHGw071vAcOf+hqW8ClqcBDMvEbm6mevn5yHAD8mlQ==
+
 bs-fetch@^0.6.2:
   version "0.6.2"
   resolved "https://registry.yarnpkg.com/bs-fetch/-/bs-fetch-0.6.2.tgz#37d982e9f79b9bc44c23e87ae78ccbee1f869adf"
@@ -35,6 +40,13 @@ destroy@~1.0.4:
   version "1.0.4"
   resolved "https://registry.yarnpkg.com/destroy/-/destroy-1.0.4.tgz#978857442c44749e4206613e37946205826abd80"
   integrity sha1-l4hXRCxEdJ5CBmE+N5RiBYJqvYA=
+
+dom-expressions@^0.27.7:
+  version "0.27.7"
+  resolved "https://registry.yarnpkg.com/dom-expressions/-/dom-expressions-0.27.7.tgz#587f2d5d58a05d9e83a45e49d566c7fb59d95790"
+  integrity sha512-t1gdvx04HVNcEdguqNZrLT41VssMUFny1+PAbS1TzaofrJfdplTMz+plMAkX4/d929RckWX3TYpUygkDq1TKIw==
+  dependencies:
+    babel-plugin-transform-rename-import "^2.3.0"
 
 ee-first@1.1.1:
   version "1.1.1"
@@ -151,10 +163,10 @@ setprototypeof@1.1.1:
   resolved "https://registry.yarnpkg.com/setprototypeof/-/setprototypeof-1.1.1.tgz#7e95acb24aa92f5885e0abef5ba131330d4ae683"
   integrity sha512-JvdAWfbXeIGaZ9cILp38HntZSFSo3mWg6xGcJJsd+d4aRMOqauag1C63dJfDw7OaMYwEbHMOxEZ1lqVRYP2OAw==
 
-solid-js@^0.23.11:
-  version "0.23.11"
-  resolved "https://registry.yarnpkg.com/solid-js/-/solid-js-0.23.11.tgz#4af97d23628bf4527576cffaca01a3b678156967"
-  integrity sha512-AuDF3QWf99MMHkLjHN03OzvH7eyhCVOeMGmvKMb3ScFo5vkSgACN+GJs4K+DcUxx9TMbxMPHqodn4b1meD3sIw==
+solid-js@^0.26.5:
+  version "0.26.5"
+  resolved "https://registry.yarnpkg.com/solid-js/-/solid-js-0.26.5.tgz#be171d2298b4dc506c84fd11fe750a1743c7080b"
+  integrity sha512-cMjxcVoyRBgnfSpwYxXPM5WF800guR+x/01RDBFQjAAkqU7X28GbRkTNKcyQ1KHcFOnzEsG18J+JJ9/PvqyNmw==
 
 "statuses@>= 1.5.0 < 2", statuses@~1.5.0:
   version "1.5.0"

@@ -8,12 +8,17 @@
     "server": "moduleserve ./ --port 8000",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [ "BuckleScript", "ReasonReact", "reason-react" ],
+  "keywords": [
+    "BuckleScript",
+    "ReasonReact",
+    "reason-react"
+  ],
   "author": "",
   "license": "MIT",
   "dependencies": {
     "bs-webapi": "^0.19.1",
-    "solid-js": "^0.23.11"
+    "dom-expressions": "^0.27.7",
+    "solid-js": "^0.26.5"
   },
   "devDependencies": {
     "bs-platform": "^9.0.2",
